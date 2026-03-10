@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyaAfrica | Premium Tunisian Products</title>
+    <meta name="description" content="International trade specializing in export and import of high-quality Tunisian food products: Olive Oil, Dates, Fish.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#"><img src="assets/images/logo.png" alt="RoyaAfrica Logo" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#products" data-i18n="nav_products">Products</a></li>
+                    <li><a href="#recipes" data-i18n="nav_recipes">Recipes</a></li>
+                    <li><a href="#quality" data-i18n="nav_quality">Quality</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="lang-switch">
+                    <button id="lang-ar">عربي</button> | 
+                    <button id="lang-en" class="active">EN</button> | 
+                    <button id="lang-fr">FR</button> | 
+                    <button id="lang-es">ES</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" style="background-image: url('assets/images/hero.png');"></div>
+        <div class="hero-content container reveal fade-up">
+            <h1 data-i18n="hero_title">RoyaAfrica – Premium Tunisian Products for the World</h1>
+            <p data-i18n="hero_subtitle">Exporting excellence, from our Mediterranean shores to your table.</p>
+            <a href="#products" class="btn btn-primary" data-i18n="btn_discover">Discover Our Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container grid-2">
+            <div class="about-text reveal slide-left">
+                <h2 data-i18n="about_title">Tunisian Heritage & Expertise</h2>
+                <div class="divider"></div>
+                <p data-i18n="about_p1">RoyaAfrica is an international trading company specializing in the export and import of high-quality Tunisian food products. We bridge the gap between traditional Mediterranean agriculture and global markets.</p>
+                <p data-i18n="about_p2">With a deep respect for our heritage, we ensure that every product leaving our shores meets the highest standards of international export quality. Our global reach allows us to deliver excellence worldwide.</p>
+            </div>
+            <div class="about-image reveal slide-right">
+                <img src="assets/images/sea.png" alt="Mediterranean Sea">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products section-padding bg-light" id="products">
+        <div class="container">
+            <div class="section-title reveal fade-up">
+                <h2 data-i18n="products_title">Our Premium Selection</h2>
+                <div class="divider center"></div>
+                <p data-i18n="products_subtitle">Sourced from the finest producers in Tunisia</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Olive Oil -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0s;">
+                    <div class="product-image">
+                        <img src="assets/images/olive_oil.png" alt="Extra Virgin Olive Oil">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge" data-i18n="badge_premium">Premium</span>
+                        <h3 data-i18n="prod_oil_title">Extra Virgin Olive Oil</h3>
+                        <p data-i18n="prod_oil_desc">Cold-pressed from the finest Mediterranean olives, offering a rich and authentic flavor.</p>
+                    </div>
+                </div>
+
+                <!-- Dates -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="product-image">
+                        <img src="assets/images/dates.png" alt="Tunisian Dates">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-gold" data-i18n="badge_export">Export Quality</span>
+                        <h3 data-i18n="prod_dates_title">Deglet Nour Dates</h3>
+                        <p data-i18n="prod_dates_desc">The "Queen of Dates", known for their translucent golden color and soft, honey-like taste.</p>
+                    </div>
+                </div>
+
+                <!-- Fish -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0.4s;">
+                    <div class="product-image">
+                        <img src="assets/images/fish.png" alt="Fresh Seafood">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-blue" data-i18n="badge_fresh">Fresh & Frozen</span>
+                        <h3 data-i18n="prod_fish_title">Mediterranean Seafood</h3>
+                        <p data-i18n="prod_fish_desc">High-quality fresh and frozen fish, responsibly sourced from deep blue Mediterranean waters.</p>
+                    </div>
+                </div>
+
+                <!-- Tomatoes -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0.6s;">
+                    <div class="product-image">
+                        <img src="assets/images/tomatoes.png" alt="Organic Sun-dried Tomatoes">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-gold" data-i18n="badge_organic">100% Organic</span>
+                        <h3 data-i18n="prod_tomatoes_title">Sun-dried Tomatoes</h3>
+                        <p data-i18n="prod_tomatoes_desc">Premium organic sun-dried tomatoes, bursting with intense flavor and Mediterranean sunshine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="recipes section-padding bg-light" id="recipes">
+        <div class="container">
+            <div class="section-title reveal fade-up">
+                <h2 data-i18n="recipes_title">Culinary Inspirations</h2>
+                <div class="divider center"></div>
+                <p data-i18n="recipes_subtitle">Discover authentic Mediterranean recipes using our premium ingredients</p>
+            </div>
+            
+            <div class="recipes-grid">
+                <!-- Recipe Dates -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0s;">
+                    <div class="product-image">
+                        <img src="assets/images/recipe_dates.png" alt="Stuffed Dates Recipe">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge" data-i18n="badge_recipe">Recipe Idea</span>
+                        <h3 data-i18n="rec_dates_title">Almond Stuffed Dates</h3>
+                        <p data-i18n="rec_dates_desc">A luxurious appetizer or dessert. Premium Deglet Nour dates stuffed with roasted almonds and drizzled with honey.</p>
+                    </div>
+                </div>
+
+                <!-- Recipe Olive Oil -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="product-image">
+                        <img src="assets/images/recipe_oil.png" alt="Olive Oil Salad">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-gold" data-i18n="badge_recipe">Recipe Idea</span>
+                        <h3 data-i18n="rec_oil_title">Mediterranean Fresh Salad</h3>
+                        <p data-i18n="rec_oil_desc">Crisp vegetables and feta cheese elevated by a generous drizzle of our Extra Virgin Olive Oil.</p>
+                    </div>
+                </div>
+
+                <!-- Recipe Tuna -->
+                <div class="product-card reveal fade-up" style="transition-delay: 0.4s;">
+                    <div class="product-image">
+                        <img src="assets/images/recipe_tuna.png" alt="Tunisian Tuna Salad">
+                    </div>
+                    <div class="product-info">
+                        <span class="badge badge-blue" data-i18n="badge_recipe">Recipe Idea</span>
+                        <h3 data-i18n="rec_tuna_title">Authentic Tunisian Salad</h3>
+                        <p data-i18n="rec_tuna_desc">A vibrant mix of fresh ingredients topped with premium chunks of our delicious Mediterranean tuna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Olive Oil Awards Section -->
+    <section class="awards section-padding bg-dark" id="awards">
+        <div class="container text-center reveal fade-up">
+            <h2 data-i18n="awards_title" class="text-gold">The Global Prestige of Tunisian Olive Oil</h2>
+            <div class="divider center" style="background-color: var(--color-white);"></div>
+            <p class="max-w-m mx-auto" data-i18n="awards_desc" style="opacity: 0.9;">Tunisian olive oil has taken the world by storm, recognized globally for its unmatched quality, rich flavor, and immense health benefits.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item reveal fade-up" style="transition-delay: 0s;">
+                    <h3 class="stat-number">300+</h3>
+                    <h4 data-i18n="stat_awards_title">International Awards</h4>
+                    <p data-i18n="stat_awards_desc">Consistently winning gold medals at the most prestigious global competitions.</p>
+                </div>
+                <div class="stat-item reveal fade-up" style="transition-delay: 0.2s;">
+                    <h3 class="stat-number">Top 3</h3>
+                    <h4 data-i18n="stat_prod_title">Global Producer</h4>
+                    <p data-i18n="stat_prod_desc">Tunisia stands proudly among the top producers and exporters of olive oil worldwide.</p>
+                </div>
+                <div class="stat-item reveal fade-up" style="transition-delay: 0.4s;">
+                    <h3 class="stat-number">100%</h3>
+                    <h4 data-i18n="stat_health_title">Health & Purity</h4>
+                    <p data-i18n="stat_health_desc">Exceptional levels of polyphenols and antioxidants, nurtured under the Mediterranean sun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality section-padding" id="quality">
+        <div class="container text-center reveal fade-up">
+            <h2 data-i18n="quality_title">Uncompromising Quality</h2>
+            <div class="divider center"></div>
+            <p class="max-w-m mx-auto" data-i18n="quality_desc">At RoyaAfrica, quality is our signature. From harvesting to packaging, we adhere to strict international certifications and standards, ensuring that our partners receive only the absolute best of Tunisia.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding bg-dark" id="contact">
+        <div class="container grid-2">
+            <div class="contact-info reveal fade-up">
+                <h2 data-i18n="contact_title">Get In Touch</h2>
+                <p data-i18n="contact_desc">Ready to partner with us for premium Tunisian exports? Reach out to our team today.</p>
+                <ul class="contact-details">
+                    <li><strong>Email:</strong> contact@royaafrica.com</li>
+                    <li><strong>Phone:</strong> +216 XX XXX XXX</li>
+                    <li><strong>Location:</strong> Tunis, Tunisia</li>
+                </ul>
+            </div>
+            <div class="contact-form-container reveal slide-left">
+                <form class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required data-i18n-ph="form_name">
+                    <input type="email" id="email" placeholder="Your Email" required data-i18n-ph="form_email">
+                    <textarea id="message" rows="5" placeholder="Your Message" required data-i18n-ph="form_message"></textarea>
+                    <button type="submit" class="btn btn-primary" data-i18n="btn_send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="logo-footer">
+                <img src="assets/images/logo.png" alt="RoyaAfrica Logo" class="logo-img">
+            </div>
+            <p>&copy; <span id="year"></span> RoyaAfrica. <span data-i18n="footer_rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
